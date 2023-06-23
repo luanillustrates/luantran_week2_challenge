@@ -1,0 +1,76 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    font-size: 65px;
+    font-weight: 1000;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(89, 28, 124);
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: rgb(126, 49, 133);
+}
+
+.navbar {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar li {
+    font-size: 24px;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 15px 35px 15px;
+    display: inline-block;
+}
+
+/* CSS splash banner */
+
+#avatar {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/splash-banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* CSS for  */
+
+#about p {
+    display: flex;
+    justify-content: center;
+}
+
+#works {
+
+}
+
+/* CSS card item box */
+
+
+
+.work-item {
+
+}
+
+#contact {
+    flex: auto;
+}
