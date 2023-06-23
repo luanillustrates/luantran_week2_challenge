@@ -52,32 +52,50 @@ a:hover {
     justify-content: center;
 }
 
-/* CSS work item card */
+/* CSS work card flexbox */
 
-.work-item {
-    height: 500px;
-    width: 500px;
-    margin-bottom: 25px;
-}
-
-#highlight {
-    size: 100%;
-    background-image: url("../images/work1.jpg");
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+    width: 65%;   
 }
 
-#work2 {
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    border: 10px;
+    width: 80%;
+    background-color: bisque;
+}
+
+.card-image {
+    height: 150px;
+    background-position: center center;
+}
+
+.card-image:nth-child(1) {
+    background-image: url("../images/work1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-image:nth-child(2) {
     background-image: url("../images/work2.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-#work3 {
-    background-image: url("../images/work3.jpg");
+
+#contact ul li {
+    display: flex;
+    font-weight: 500;
 }
 
-#work4 {
-    background-image: url("../images/work4.jpg");
-}
-
-#contact {
-    flex: auto;
+footer {
+    display: flex;
+    justify-content: center;
 }
