@@ -11,8 +11,20 @@ h1 {
 }
 
 h2 {
+    font-size: 40px;
+    font-weight: 750;
+}
+
+.about h2 {
     padding-left: 10%;
-    font-size: 32px;
+    font-size: 40px;
+    font-weight: 750;
+}
+
+.works h2 {
+    padding-left: 10%;
+    font-size: 40px;
+    font-weight: 750;
 }
 
 a {
@@ -50,7 +62,7 @@ a:hover {
     background-position: center;
 }
 
-/* CSS for  */
+/* CSS for  aabout paragraph*/
 
 .about p {
     display: flex;
@@ -81,8 +93,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 45%;
-    margin: 15px 7.5px 5px;
+    width: 46%;
 }
 
 .row-3 {
@@ -107,13 +118,12 @@ a:hover {
     flex: 2;
 }
 
+/* CSS for cards */
+
 .card {
     display: flex;
     flex-direction: column;
-    flex: 1;
-    align-items: center;
-    margin: 25px;
-    border: 10px;
+    margin: 15px 20px 5px;
     width: 100%;
     position: relative;
 }
@@ -131,17 +141,29 @@ a:hover {
     height: 450px;
     width: 100%;
     background-position: center;
-    
-}
-
-.card-image:hover {
-
+    border: 8px solid;
+    border-color: white;
 }
 
 .card-image a {
+    display: flex;
+    justify-content: center;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 550;
+    background-color: white;
+    padding: 15px;
+    
 }
+
+.card-image a:hover {
+    color:  rgb(122, 57, 159);
+}
+
+.card-image:hover {
+    border-color:  rgb(122, 57, 159);
+}
+
+/* image gallery */
 
 .column:nth-child(1) .card {
     background-image: url("../images/work1.jpg");
@@ -173,22 +195,24 @@ a:hover {
     background-position: center;
 }
 
-#contact ul li {
-    display: flex;
-    font-weight: 500;
-}
+/* CSS for contact footer */
 
 footer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(236, 236, 236);
 }
 
 footer li {
+    font-size: 25px;
+    font-weight: 550;
     display: inline;
-    padding: 20px;
-    align-self: center;
-
+    padding: 10px;
 }
+
+/* media query */
 
 @media screen and (max-width: 768px) {
     .content {
