@@ -2,7 +2,7 @@
 
 ## Description
 
-A portfolio page showcasing learnt HTML and CSS
+A portfolio page showcasing learnt HTML and CSS with links that lead to learning resources.
 
 ## Installation
 
@@ -10,13 +10,19 @@ N/A
 
 ## Usage
 
-A landing page for Horiseon's marketing materials.
+A resource hub for all things HTML and CSS.
 
-![website's appearance and functionality preview](Develop/assets/images/screenshot.png)
+![website's appearance and functionality preview](./assets/images/screencap.png)
 
 ## Credits
 
 Examples 
+
+Resources used:
+
+Flexbox froggy.. https://flexboxfroggy.com/
+
+mdn Mozilla developer blog.. https://developer.mozilla.org/en-US/
 
 Reset css thanks to necolas, https://github.com/necolas/normalize.css/.
 

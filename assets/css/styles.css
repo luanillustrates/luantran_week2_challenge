@@ -75,11 +75,20 @@ a:hover {
 
 /* CSS flexbox with card hierarchy */
 
+.content {
+    width: 85%;
+    margin: 0 auto;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+:first-child {
     width: 100%;
-    justify-content: center;
 }
 
 .row {
@@ -93,7 +102,8 @@ a:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 46%;
+    width: 40%;
+    margin-right: 5px;
 }
 
 .row-3 {
@@ -199,16 +209,18 @@ a:hover {
 
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: rgb(236, 236, 236);
+    margin-top: 5px;
+    padding: 10px;
 }
 
-footer li {
+.contact-list  {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-text {
     font-size: 25px;
     font-weight: 550;
-    display: inline;
     padding: 10px;
 }
 
