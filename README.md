@@ -12,7 +12,7 @@ live site https://luanillustrates.github.io/luantran_wk02_challenge/
 
 A resource hub for all things HTML and CSS.
 
-![website's appearance and functionality preview](./assets/images/screencap.png)
+![website's appearance and functionality preview](./assets/images/screencapture.png)
 
 ## Credits
 
