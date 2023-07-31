@@ -6,7 +6,7 @@ A portfolio page showcasing learnt HTML and CSS with links that lead to learning
 
 ## Installation
 
-N/A
+live site https://luanillustrates.github.io/luantran_wk02_challenge/
 
 ## Usage
 
